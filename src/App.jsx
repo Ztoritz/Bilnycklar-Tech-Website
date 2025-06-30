@@ -372,7 +372,7 @@ function App() {
                   <Mail className="text-blue-600" size={24} />
                   <div>
                     <h4 className="font-semibold text-gray-900">Email</h4>
-                    <p className="text-gray-600">hello@bilnycklar.tech</p>
+                    <p className="text-gray-600">hello@bilnyckel.tech</p>
                   </div>
                 </div>
                 

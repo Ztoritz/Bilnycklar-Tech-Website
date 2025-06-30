@@ -57,7 +57,7 @@ This website is configured for deployment with Coolify using Docker. See [DEPLOY
 
 ### Quick Deploy with Coolify
 1. Connect your Git repository to Coolify
-2. Set domain to `bilnycklar.tech`
+2. Set domain to `bilnyckel.tech`
 3. Deploy using the included Docker configuration
 
 ## Project Structure
@@ -109,6 +109,6 @@ Update the content in `App.jsx` to match your company's information, services, a
 ## Contact
 
 For questions about this website:
-- Email: hello@bilnycklar.tech
+- Email: hello@bilnyckel.tech
 - Phone: +1 (555) 123-4567
 

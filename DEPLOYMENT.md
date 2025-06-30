@@ -1,11 +1,11 @@
 # Bilnycklar Tech Website - Coolify Deployment Guide
 
 ## Overview
-This guide provides step-by-step instructions for deploying the Bilnycklar Tech website using Coolify with the domain bilnycklar.tech.
+This guide provides step-by-step instructions for deploying the Bilnycklar Tech website using Coolify with the domain bilnyckel.tech.
 
 ## Prerequisites
 - Coolify installed and configured on your server
-- Domain bilnycklar.tech pointing to your server
+- Domain bilnyckel.tech pointing to your server
 - Git repository containing the website files
 
 ## Deployment Steps
@@ -27,13 +27,13 @@ Ensure your repository contains:
 
 #### Environment Configuration
 Set the following environment variables in Coolify:
-- `NGINX_HOST=bilnycklar.tech`
+- `NGINX_HOST=bilnyckel.tech`
 - `NGINX_PORT=80`
 
 #### Domain Configuration
-1. In the application settings, add your domain: `bilnycklar.tech`
+1. In the application settings, add your domain: `bilnyckel.tech`
 2. Enable SSL/TLS certificate (Let's Encrypt)
-3. Configure www redirect if needed: `www.bilnycklar.tech` → `bilnycklar.tech`
+3. Configure www redirect if needed: `www.bilnyckel.tech` → `bilnyckel.tech`
 
 #### Port Configuration
 - Container Port: 80
@@ -42,10 +42,10 @@ Set the following environment variables in Coolify:
 ### 3. Build and Deploy
 1. Trigger the deployment from Coolify dashboard
 2. Monitor the build logs for any errors
-3. Once deployed, verify the website is accessible at https://bilnycklar.tech
+3. Once deployed, verify the website is accessible at https://bilnyckel.tech
 
 ### 4. Post-Deployment Verification
-- [ ] Website loads correctly at bilnycklar.tech
+- [ ] Website loads correctly at bilnyckel.tech
 - [ ] All images and assets are loading
 - [ ] Navigation works properly
 - [ ] Mobile responsiveness is maintained
